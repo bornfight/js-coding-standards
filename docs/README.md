@@ -1,11 +1,9 @@
 # Index of all documents
 
+Please keep it in alphabetical order.
+
 1. es6
-    -   a
-    -   b
+    -   modules
 2. libraries
-    -   b
-    -   c
+    -   p5
 3. nodeJS
-    -   a
-    -   b
