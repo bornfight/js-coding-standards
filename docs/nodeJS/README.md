@@ -20,7 +20,8 @@ _Keep it in alphabetical order!_
     - A simple performant way to use socket.io with a cluster. [(npmjs)](https://www.npmjs.com/package/sticky-session)
 - utp
     - utp (micro transport protocol) implementation in node. [(npmjs)](https://www.npmjs.com/package/utp)
-    
+- kafka-node
+    - apache kafka message system module [(npmjs)](https://www.npmjs.com/package/kafka-node)
     
     
 ## Quality reading material
