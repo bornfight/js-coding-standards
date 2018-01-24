@@ -1,0 +1,21 @@
+{
+  "name": "js-coding-standards",
+  "version": "1.0.0",
+  "description": "Degordian js coding standard",
+  "main": "exports.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/degordian/js-coding-standards.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/degordian/js-coding-standards/issues"
+  },
+  "homepage": "https://github.com/degordian/js-coding-standards#readme"
+}
