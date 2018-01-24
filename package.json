@@ -2,7 +2,6 @@
   "name": "js-coding-standards",
   "version": "1.0.0",
   "description": "Degordian js coding standard",
-  "main": "exports.js",
   "directories": {
     "doc": "docs"
   },
