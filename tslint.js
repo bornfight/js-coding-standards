@@ -1,1 +1,1 @@
-module.exports = require('./docs/typescript/tslint/tslint.json');
+module.exports = require('./standards/typescript/tslint/tslint.json');
