@@ -1,9 +1,10 @@
 {
-  "name": "js-coding-standards",
+  "name": "@degordian/standards",
   "version": "1.0.0",
-  "description": "Degordian js coding standard",
+  "description": "Degordian js coding standards",
   "directories": {
-    "doc": "docs"
+    "doc": "docs",
+    "standards": "standards"
   },
   "scripts": {
   },
