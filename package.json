@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "Degordian js coding standards",
   "directories": {
-    "doc": "docs",
     "standards": "standards"
   },
   "scripts": {
@@ -12,8 +11,8 @@
     "type": "git",
     "url": "git+https://github.com/degordian/js-coding-standards.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Degordian (https://www.degordian.com/)",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/degordian/js-coding-standards/issues"
   },
