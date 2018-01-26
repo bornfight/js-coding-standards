@@ -1,12 +1,11 @@
 {
   "name": "@degordian/standards",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Degordian js coding standards",
   "directories": {
     "standards": "standards"
   },
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/degordian/js-coding-standards.git"
