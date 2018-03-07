@@ -6,7 +6,8 @@
   "jsRules": {},
   "rules": {
     "variable-name": [true, "ban-keywords", "check-format", "allow-leading-underscore"],
-    "interface-name": [true, "never-prefix"]
+    "interface-name": [true, "never-prefix"],
+    "object-literal-sort-keys": false
   },
   "rulesDirectory": []
 }
