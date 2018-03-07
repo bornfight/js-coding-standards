@@ -7,7 +7,8 @@
   "rules": {
     "variable-name": [true, "ban-keywords", "check-format", "allow-leading-underscore"],
     "interface-name": [true, "never-prefix"],
-    "callable-types": false
+    "callable-types": false,
+    "object-literal-sort-keys": false
   },
   "rulesDirectory": []
 }
