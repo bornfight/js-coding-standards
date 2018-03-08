@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/degordian/js-coding-standards/issues"
   },
-  "homepage": "https://github.com/degordian/js-coding-standards#readme"
+  "homepage": "https://github.com/degordian/js-coding-standards#readme",
+  "dependencies": {
+    "tslint-sonarts": "^1.6.0"
+  }
 }
