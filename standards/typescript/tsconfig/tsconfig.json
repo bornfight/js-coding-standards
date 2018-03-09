@@ -11,7 +11,7 @@
     "allowSyntheticDefaultImports": true,  /* Allow default imports from modules with no default export. This does not affect code emit, just typechecking. */
     "suppressImplicitAnyIndexErrors": true,
     "strictPropertyInitialization": false,
-    "strictNullChecks": false
+    "strictNullChecks": true
     /* Allow class definitions to be null */
   }
 }
