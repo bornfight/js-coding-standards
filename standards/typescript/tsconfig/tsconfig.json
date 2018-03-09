@@ -12,6 +12,5 @@
     "suppressImplicitAnyIndexErrors": true,
     "strictPropertyInitialization": false,
     "strictNullChecks": true
-    /* Allow class definitions to be null */
   }
 }
