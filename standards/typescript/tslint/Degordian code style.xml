@@ -1,10 +1,5 @@
 <code_scheme name="Degordian code style" version="173">
   <option name="LINE_SEPARATOR" value="&#xD;&#xA;" />
-  <PHPCodeStyleSettings>
-    <option name="LOWER_CASE_BOOLEAN_CONST" value="true" />
-    <option name="LOWER_CASE_NULL_CONST" value="true" />
-    <option name="KEEP_RPAREN_AND_LBRACE_ON_ONE_LINE" value="true" />
-  </PHPCodeStyleSettings>
   <TypeScriptCodeStyleSettings>
     <option name="SPACE_BEFORE_FUNCTION_LEFT_PARENTH" value="false" />
     <option name="ENFORCE_TRAILING_COMMA" value="WhenMultiline" />
