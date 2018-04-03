@@ -17,6 +17,9 @@
   },
   "homepage": "https://github.com/degordian/js-coding-standards#readme",
   "dependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.10.0",
     "tslint-sonarts": "^1.6.0"
   }
 }
