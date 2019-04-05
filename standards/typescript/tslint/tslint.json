@@ -2,14 +2,92 @@
   "defaultSeverity": "error",
   "extends": [
     "tslint:recommended",
-    "tslint-sonarts"
+    "tslint-sonarts",
+    "tslint-consistent-codestyle"
   ],
   "jsRules": {},
   "rules": {
-    "variable-name": [true, "ban-keywords", "check-format", "allow-leading-underscore"],
+    "variable-name": [
+      true,
+      "ban-keywords",
+      "check-format",
+      "allow-leading-underscore"
+    ],
     "interface-name": [true, "never-prefix"],
+    "no-null-keyword": true,
+    "no-any": true,
     "callable-types": false,
-    "object-literal-sort-keys": false
+    "object-literal-sort-keys": false,
+    "no-console": false,
+    "prefer-template": true,
+    // Clean code rules
+    "max-line-length": [
+      true,
+      {
+        "limit": 120,
+        "ignore-pattern": "^import |\\s+[a-zA-Z]+ = \".+\","
+      }
+    ],
+    "no-magic-numbers": true,
+    "no-for-in-array": true,
+    "no-return-await": true,
+    "prefer-object-spread": true,
+    "max-classes-per-file": [true, 1],
+    "unnecessary-else": true,
+
+    // Naming convetions
+    "naming-convention": [
+      true,
+      // forbid leading and trailing underscores and enforce camelCase on EVERY name. will be overridden by subtypes if needed
+      {
+        "type": "default",
+        "format": "camelCase",
+        "leadingUnderscore": "forbid",
+        "trailingUnderscore": "forbid"
+      },
+      // require all global constants to be camelCase or UPPER_CASE
+      // all other variables and functions still need to be camelCase
+      {
+        "type": "variable",
+        "modifiers": ["global", "const"],
+        "format": ["camelCase", "UPPER_CASE"]
+      },
+      // override the above format option for exported constants to allow only UPPER_CASE
+      {
+        "type": "variable",
+        "modifiers": ["export", "const"],
+        "format": "UPPER_CASE"
+      },
+      // require exported constant variables that are initialized with functions to be camelCase
+      {
+        "type": "functionVariable",
+        "modifiers": ["export", "const"],
+        "format": "camelCase"
+      },
+      // require leading underscores for private properties and methods, all other rules still apply
+      {
+        "type": "member",
+        "modifiers": "private",
+        "leadingUnderscore": "require"
+      },
+      // same for protected
+      {
+        "type": "member",
+        "modifiers": "protected",
+        "leadingUnderscore": "require"
+      },
+      // enforce UPPER_CASE for all public static readonly(!) properties
+      {
+        "type": "property",
+        "modifiers": ["public", "static", "const"],
+        "format": "UPPER_CASE"
+      },
+      // enforce PascalCase for classes, interfaces, enums, etc. Remember, there are still no underscores allowed.
+      { "type": "type", "format": "PascalCase" },
+      // enum members must be in PascalCase. Without this config, enumMember would inherit UPPER_CASE from public static const property
+      { "type": "enumMember", "format": "PascalCase" }
+    ],
+    "file-name-casing": [true, "pascal-case"]
   },
   "rulesDirectory": []
 }
