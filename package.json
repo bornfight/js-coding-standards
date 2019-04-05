@@ -1,6 +1,6 @@
 {
   "name": "@degordian/standards",
-  "version": "1.0.9",
+  "version": "1.0.8",
   "description": "Degordian js coding standards",
   "directories": {
     "standards": "standards"
@@ -20,7 +20,6 @@
     "eslint": "^4.19.1",
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-plugin-import": "^2.10.0",
-    "tslint-consistent-codestyle": "^1.15.1",
-    "tslint-sonarts": "^1.9.0"
+    "tslint-sonarts": "^1.6.0"
   }
 }

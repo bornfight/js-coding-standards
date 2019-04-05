@@ -10,13 +10,7 @@
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
     "suppressImplicitAnyIndexErrors": true,
-    "strictPropertyInitialization": true,
-    "strictNullChecks": true,
-    "baseUrl": ".",
-    "paths": {
-      "@/*": [
-        "src/*"
-      ]
-    }
+    "strictPropertyInitialization": false,
+    "strictNullChecks": true
   }
 }
